@@ -20,4 +20,4 @@ def send_email(user, pwd, recipient, subject, body):
     except:
         print("failed to send mail")
 
-send_email("simran.nielit@gmail.com","simran123456","simran.nielit@gmail.com","Hello from Python","Heloooooooo")
+send_email("from@gmail.com","password","to@gmail.com","Hello from Python","Heloooooooo")
